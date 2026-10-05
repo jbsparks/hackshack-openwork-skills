@@ -67,4 +67,5 @@ WORKDIR /root/labs
 EXPOSE 5178
 
 ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]
-CMD ["bash"]
+#CMD ["bash"]
+CMD ["sleep", "infinity"]
